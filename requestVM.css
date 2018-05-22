@@ -1,0 +1,130 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+
+body {
+    background: linear-gradient(to right, rgb(41, 64, 114), rgb(41, 65, 115));
+    color: white;
+}
+
+h1 {
+    text-align: center;
+    color: #0c6;
+}
+.container {
+    background-color: #1c2b4a;
+    margin: 0 auto;
+    padding: 50px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 500px;
+}
+.smallbox {
+    display: flex;
+}
+
+.short-mem {
+    margin-right: 2px;
+    width: 80%;
+}
+
+.togglehs {
+    display: none;
+}
+
+span {
+    margin-left: 20px;
+}
+
+.ulcontainer {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+nav {
+    background-color: black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 60px;
+    width: 100%;
+    z-index: 1; 
+}
+
+nav a {
+    font-family: 'Raleway', sans-serif;
+    color: whitesmoke;
+    text-decoration: none;
+    padding: 10px;
+}
+
+nav a:hover {
+    color: #f1f1f1;
+}
+.long-width {
+    width: 100%;
+}
+
+.main {
+    font-family: 'Raleway', sans-serif;
+    margin-top: 60px;
+    font-size: 25px;
+    padding: 0 10px;
+}
+
+input, textarea, select, option {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 15px;
+}
+
+.cc, .bc, .pc {
+    display: inline-block;
+    margin-left: 8px;
+    padding: 10px;
+}
+
+#submit {
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    background-color: #0c6;
+    color: white;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-top: 20px;
+}
+
+#submit:hover {
+    color: #000;
+    background-color: #4a4c4f;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+#radio_st {
+    display: inline-block;
+}
+
+/*#logout {
+    margin-top: 60px;
+    padding: 5px;
+    background-color: black;
+    color: whitesmoke;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: 100;
+    position: absolute;
+    text-decoration: none;
+    border: 2px solid black;
+    top: 10;
+    right: 20;
+    border-radius: 10px;
+}
+*/
+#logout:hover {
+    background-color: #818181;
+    color: black;
+    font-weight: bold;
+}
