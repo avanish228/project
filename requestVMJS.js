@@ -65,3 +65,21 @@ function enadis() {
         }
     }
 }
+
+const pcfun = () => {
+    document.getElementById("pc").disabled = false;
+    document.getElementById("bc").disabled = true;
+    document.getElementById("cc").disabled = true;
+}
+
+const bcfun = () => {
+    document.getElementById("pc").disabled = true;
+    document.getElementById("bc").disabled = false;
+    document.getElementById("cc").disabled = true;
+}
+
+const ccfun = () => {
+    document.getElementById("pc").disabled = true;
+    document.getElementById("bc").disabled = true;
+    document.getElementById("cc").disabled = false;
+}
