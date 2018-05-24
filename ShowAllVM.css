@@ -1,39 +1,19 @@
 @import url(https://fonts.googleapis.com/css?family=Raleway);
 
+
 body {
     background: linear-gradient(to right, rgb(41, 64, 114), rgb(41, 65, 115));
     color: white;
     font-family: 'Raleway', sans-serif;
 }
 
-h1 {
-    flex-direction: row;
-    justify-content: flex-start;
-    text-align: center;
-    color: #0c6;
-}
 .container {
     background-color: #1c2b4a;
     margin: 0 auto;
     padding: 50px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    width: 500px;
-}
-.smallbox {
-    display: flex;
-}
-
-.short-mem {
-    margin-right: 2px;
-    width: 80%;
-}
-
-.togglehs {
-    display: none;
-}
-
-span {
-    margin-left: 20px;
+    width: 30%;
+    overflow-y: hidden;
 }
 
 .ulcontainer {
@@ -42,9 +22,6 @@ span {
     flex-direction: row;
     justify-content: flex-end;
 }
-
-
-
 nav {
     display: flex;
     flex-direction: row;
@@ -66,12 +43,26 @@ nav a {
     margin-top: -10px;
 }
 
+.active {
+    color: #0c6;
+}
+
 nav a:hover {
     color: #0c6;
 }
-.long-width {
-    width: 100%;
+
+h4{
+    text-align: center;
+    font-size: 2em;
+    color: #0c6;
 }
+th, td {
+    padding: 5px 30px 10px 30px;
+}
+th {
+    border-bottom: 2px dashed black; 
+}
+
 
 .main {
     font-family: 'Raleway', sans-serif;
@@ -80,11 +71,10 @@ nav a:hover {
     padding: 0 10px;
 }
 
-input, textarea, select, option {
-    display: block;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    padding: 15px;
+
+input {
+    display: inline-block;
+    padding: 10px;
 }
 
 .cc, .bc, .pc {
@@ -94,25 +84,17 @@ input, textarea, select, option {
 }
 
 #submit {
-    padding: 10px;
-    border: none;
-    border-radius: 20px;
     background-color: #0c6;
-    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    padding: 5px;
+    font-family: 'Raleway', sans-serif;
     letter-spacing: 2px;
     text-transform: uppercase;
+    border-radius: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    margin-top: 20px;
 }
-
 #submit:hover {
-    color: #000;
-    background-color: #4a4c4f;
-    cursor: pointer;
-    font-weight: bold;
+    background-color: #7f3; 
 }
-
-#radio_st {
-    display: inline-block;
-}
-
