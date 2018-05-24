@@ -1,0 +1,114 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+
+
+body {
+    background: linear-gradient(to right, rgb(41, 64, 114), rgb(41, 65, 115));
+    color: white;
+    font-family: 'Raleway', sans-serif;
+}
+
+.container {
+    background-color: #1c2b4a;
+    margin: 0 auto;
+    padding: 50px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 60%;
+    overflow-y: hidden;
+}
+
+.ulcontainer {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 60px;
+    width: 100%;
+    z-index: 1; 
+}
+
+nav a {
+    font-family: 'Raleway', sans-serif;
+    color: whitesmoke;
+    text-decoration: none;
+    padding-right: 10px;
+    margin-top: -10px;
+}
+
+nav a:hover {
+    color: #0c6;
+}
+
+h4{
+    text-align: center;
+    font-size: 2em;
+    color: #0c6;
+}
+th, td {
+    padding: 5px 20px 5px 20px;
+}
+th {
+    border-bottom: 2px dashed black; 
+}
+
+
+.main {
+    font-family: 'Raleway', sans-serif;
+    margin-top: 60px;
+    font-size: 25px;
+    padding: 0 10px;
+}
+
+
+input {
+    display: inline-block;
+    padding: 10px;
+}
+
+.cc, .bc, .pc {
+    display: inline-block;
+    margin-left: 8px;
+    padding: 10px;
+}
+
+#btn {
+    display: flex;
+}
+
+#accept {
+    background-color: #0c6;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    padding: 5px;
+    margin-right: 5px;
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+#submit:hover {
+    background-color: #7f3; 
+}
+
+#reject {
+    background-color: #ff0000;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    padding: 5px;
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
